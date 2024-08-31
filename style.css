@@ -39,7 +39,6 @@ main {
 
 .hero {
   min-height: 600px;
-  
   text-align: center;
 }
 
@@ -59,4 +58,24 @@ main {
 
 .hero-icon img {
   margin: 15px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 10px;
+}
+
+.about img {
+  width: 300px;
+}
+
+.about p {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.more p {
+  margin: 20px 10px;
 }
