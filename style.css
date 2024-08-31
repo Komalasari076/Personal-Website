@@ -23,7 +23,7 @@ header nav li {
 
 .hero {
   min-height: 600px;
-  background-color:  #a8dadc;
+  background-color: #a8dadc;
   text-align: center;
 }
 
@@ -37,11 +37,31 @@ header nav li {
 }
 
 .hero-text h2 {
-    font-weight: 500px;
-    margin-top: 10px;
+  font-weight: 500px;
+  margin-top: 10px;
 }
 
 .hero-icon img {
-    margin: 15px;
+  margin: 15px;
 }
 
+.portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.portfolio .card {
+  width: 500px;
+  margin: 100px;
+  background-color: #9ad1d3;
+}
+
+.portfolio img {
+  width: 500px;
+  padding: 10px;
+}
+
+.portfolio .text {
+  width: 400px;
+}
