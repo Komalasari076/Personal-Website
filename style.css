@@ -10,20 +10,20 @@ body {
 }
 
 header nav {
-  background-color: #a8dadc;
+  background-color: #9ad1d3;
   text-align: center;
   padding: 20px;
 }
 
 header nav li {
   display: inline-block;
-  margin: 0 50px;
+  margin: 0 40px;
   font-weight: 700;
 }
 
 .hero {
   min-height: 600px;
-  background-color: #f1faee;
+  background-color:  #a8dadc;
   text-align: center;
 }
 
@@ -39,5 +39,9 @@ header nav li {
 .hero-text h2 {
     font-weight: 500px;
     margin-top: 10px;
+}
+
+.hero-icon img {
+    margin: 15px;
 }
 
