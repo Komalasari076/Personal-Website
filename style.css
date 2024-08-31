@@ -1,24 +1,43 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    ;
+  font-family: "Roboto", sans-serif;
+  color: #1d3537;
 }
 
 header nav {
-    background-color: #457b9d;
-    text-align: center;
-    padding: 20px;
+  background-color: #a8dadc;
+  text-align: center;
+  padding: 20px;
 }
 
 header nav li {
-    display: inline-block;
-    margin: 0 50px;
-    font-weight: 700;
-    color: #f1faee;
-    
+  display: inline-block;
+  margin: 0 50px;
+  font-weight: 700;
 }
+
+.hero {
+  min-height: 600px;
+  background-color: #f1faee;
+  text-align: center;
+}
+
+.hero-text {
+  padding-top: 200px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.hero-text h2 {
+    font-weight: 500px;
+    margin-top: 10px;
+}
+
