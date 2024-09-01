@@ -25,6 +25,11 @@ header nav li {
   font-size: 20px;
 }
 
+header nav li a {
+  text-decoration: none;
+  color: #1d3537;
+}
+
 header nav li span {
   font-family: "Pacifico", cursive;
   font-size: 30px;
@@ -38,7 +43,7 @@ main {
 
 /* style hero section*/
 .hero {
-  max-height: 600px;
+  min-height: 600px;
   text-align: center;
 }
 
