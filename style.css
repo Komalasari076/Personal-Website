@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #1d3537;
 }
 
 body {
   width: 100%;
   font-family: "Roboto", sans-serif;
   background-color: #a8dadc;
-  color: #1d3537;
 }
 
 header {
@@ -88,7 +88,6 @@ main {
 }
 /* akhir style about */
 
-
 /* style portfolio */
 .portfolio {
   display: flex;
@@ -121,50 +120,40 @@ main {
 }
 /* akhir style portfolio */
 
-.blog-section {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* style blog */
+.blog {
+  margin-top: 50px;
 }
 
-h2 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
+.blog .deskripsi {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-p {
-  color: #666;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
-
-.articles {
+.blog .articles {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.article {
-  background-color: #f9f9f9;
+.blog .articles .article {
   padding: 15px;
-  border-left: 4px solid #007bff;
+  background-color: #9fd4d6;
+  box-shadow: 0 0 10px white;
+  border-left: 4px solid #457b9d;
 }
 
-.article h3 {
-  margin: 0 0 10px 0;
-  color: #007bff;
-}
-
-.article p {
+.blog .articles .article h3,
+p {
   margin: 0 0 10px 0;
 }
 
-.article a {
+.blog .articles .article a {
   text-decoration: none;
-  color: #007bff;
+  color: #457b9d;
   font-weight: bold;
 }
+/* akhir style blog */
