@@ -11,11 +11,12 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 100%; 
+  border-bottom: 1px solid #f9f9f9;
+  box-shadow: 2px 0 10px #f9f9f9;
 }
 
 header nav {
-  background-color: #68a6a8;
   text-align: center;
   padding: 20px;
 }
