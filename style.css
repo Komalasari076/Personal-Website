@@ -36,7 +36,6 @@ main {
   margin: auto;
 }
 
-
 /* style hero section*/
 .hero {
   max-height: 600px;
@@ -62,14 +61,13 @@ main {
 }
 /* akhir style hero section*/
 
-
 /* style about */
 .about P {
   letter-spacing: 0.5px;
   font-weight: 500;
 }
 
-.about .pertama{
+.about .pertama {
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -90,25 +88,38 @@ main {
 }
 /* akhir style about */
 
-.portfolio .card {
+
+/* style portfolio */
+.portfolio {
   display: flex;
   justify-content: center;
   gap: 60px;
   margin-top: 50px;
 }
 
-.portfolio .card img {
-  width: 400px;
-  border: 4px white solid;
+.portfolio .card {
+  width: 300px;
+  height: 120px;
+  padding: 10px;
+  border: 2px white solid;
+  background-color: #9fd4d6;
+  box-shadow: 2px 0 10px white;
+  transition: transform 0.3s ease;
 }
 
-.card1,
-.card2,
-.card3 {
-  background-color: #9fd4d6;
-  padding: 10px;
-  box-shadow: 2px 0 10px #1d3537;
+.portfolio .card:hover {
+  transform: scale(1.05);
 }
+
+.portfolio h1 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.portfolio p {
+  font-size: 14px;
+}
+/* akhir style portfolio */
 
 .blog-section {
   max-width: 800px;
