@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #1d3537;
 }
 
 body {
   width: 100%;
   font-family: "Roboto", sans-serif;
   background-color: #a8dadc;
+  color: #1d3537;
 }
 
 header {
@@ -75,16 +75,23 @@ main {
 }
 
 .about .pertama p {
-  width: 450px;
-  margin-top: 50px;
+  width: 550px;
+  margin-top: 40px;
 }
 
 .about img {
-  width: 300px;
+  width: 200px;
 }
 
 .about .kedua p {
+  margin: 30px 10px;
+  text-align: justify;
+}
+
+.about .kedua img {
+  width: 780px;
   margin: 20px 10px;
+  box-shadow: 2px 0 10px white;
 }
 /* akhir style about */
 
