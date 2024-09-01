@@ -12,13 +12,10 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #f9f9f9;
-  box-shadow: 2px 0 10px #f9f9f9;
-}
-
-header nav {
   text-align: center;
   padding: 15px;
+  border-bottom: 1px solid #f9f9f9;
+  box-shadow: 2px 0 10px #f9f9f9;
 }
 
 header nav li {
@@ -39,8 +36,10 @@ main {
   margin: auto;
 }
 
+
+/* style hero section*/
 .hero {
-  min-height: 600px;
+  max-height: 600px;
   text-align: center;
 }
 
@@ -54,33 +53,42 @@ main {
 }
 
 .hero-text h2 {
-  font-weight: 500px;
+  font-weight: 400px;
   margin-top: 10px;
 }
 
 .hero-icon img {
   margin: 15px;
 }
+/* akhir style hero section*/
 
-.about {
+
+/* style about */
+.about P {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.about .pertama{
   display: flex;
   justify-content: center;
   gap: 50px;
   margin: 10px;
 }
 
-.about img {
-  width: 300px;
-}
-
-.about p {
+.about .pertama p {
   width: 450px;
   margin-top: 50px;
 }
 
-.more p {
+.about img {
+  width: 300px;
+}
+
+.about .kedua p {
   margin: 20px 10px;
 }
+/* akhir style about */
 
 .portfolio .card {
   display: flex;
