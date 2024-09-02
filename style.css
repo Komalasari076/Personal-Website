@@ -68,6 +68,36 @@ header nav li span {
 }
 /* akhir style hero section*/
 
+/* style work-section */
+.work-section {
+  margin: 50px 0;
+}
+
+.work-section h1 {
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work-section .deskripsi {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.work-section .deskripsi .left, .right {
+  width: 350px;
+}
+
+.work-section .deskripsi h2 {
+  margin: 30px 0 10px 0;
+}
+
+.work-section .deskripsi ul li {
+  margin: 5px 0 5px 20px;
+}
+
 /* style about */
 .about P {
   letter-spacing: 0.5px;
