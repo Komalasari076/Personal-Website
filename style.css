@@ -86,7 +86,8 @@ header nav li span {
   gap: 100px;
 }
 
-.work-section .deskripsi .left, .right {
+.work-section .deskripsi .left,
+.right {
   width: 350px;
 }
 
@@ -97,8 +98,13 @@ header nav li span {
 .work-section .deskripsi ul li {
   margin: 5px 0 5px 20px;
 }
+/* akhir style work-section */
 
 /* style about */
+.about {
+  margin: 50px 0;
+}
+
 .about P {
   letter-spacing: 0.5px;
   font-weight: 500;
@@ -107,28 +113,23 @@ header nav li span {
 .about .pertama {
   display: flex;
   justify-content: center;
-  gap: 50px;
   margin: 10px 0;
+  gap: 50px;
 }
 
 .about .pertama p {
-  width: 550px;
+  width: 450px;
   margin-top: 40px;
+  font-size: 20px;
 }
 
-.about img {
-  width: 200px;
-}
-
-.about .kedua p {
-  margin: 30px 0;
-  text-align: justify;
+.about .pertama img {
+  width: 300px;
 }
 
 .about .kedua img {
   width: 800px;
-  margin: 20px 0;
-  box-shadow: 2px 0 10px white;
+  margin-top: 40px;
 }
 /* akhir style about */
 
@@ -227,9 +228,9 @@ p {
   margin: 5px 20px;
 }
 
-.write .deskripsi, .kesimpulan {
+.write .deskripsi,
+.kesimpulan {
   font-weight: 500;
-    letter-spacing: 1.5%;
-    margin: 20px 0;
+  letter-spacing: 1.5%;
+  margin: 20px 0;
 }
-
