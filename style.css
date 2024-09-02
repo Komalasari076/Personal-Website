@@ -165,6 +165,17 @@ header nav li span {
 .portfolio p {
   font-size: 14px;
 }
+
+.program img {
+  margin: 30px 0 50px 0;
+  border: 2px white solid;
+  box-shadow: 2px 0 10px white;
+}
+
+.program h1 {
+  font-family: "Pacifico", cursive;
+  margin-top: 100px;
+}
 /* akhir style portfolio */
 
 /* style blog */
