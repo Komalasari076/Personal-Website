@@ -107,7 +107,8 @@ header nav li span {
 
 .about P {
   letter-spacing: 0.5px;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .about .pertama {
@@ -116,11 +117,12 @@ header nav li span {
   margin: 10px 0;
   gap: 50px;
 }
-
+ 
 .about .pertama p {
   width: 450px;
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .about .pertama img {
