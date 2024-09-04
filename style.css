@@ -110,16 +110,21 @@ header nav li span {
 .about .deskripsi {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
   margin: 10px 0 50px 0;
 }
 
 .about .deskripsi p {
-  width: 450px;
-  margin-top: 30px;
-  font-size: 22px;
-  font-weight: 430;
+  width: 470px;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: 1.5%;
+}
+
+.about .deskripsi p span {
+  font-weight: 410;
+  font-size: 22px;
 }
 
 .about .skill-page {
@@ -130,7 +135,7 @@ header nav li span {
 
 .about .skill-page p {
   font-size: 16px;
-  font-weight: 405;
+  font-weight: 401;
   text-align: justify;
   letter-spacing: 1.5%;
   padding: 0 25px;
@@ -143,11 +148,18 @@ header nav li span {
 /* akhir style about */
 
 /* style portfolio */
+.project {
+  margin-top: 50px;
+}
+
+.project .judul {
+  margin-bottom: 20px;
+}
+
 .portfolio {
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin-top: 50px;
 }
 
 .portfolio .card {
@@ -173,15 +185,18 @@ header nav li span {
   font-size: 14px;
 }
 
+.program {
+  margin-top: 100px;
+}
+
 .program img {
   margin: 30px 0 50px 0;
   border: 2px white solid;
   box-shadow: 2px 0 10px white;
 }
 
-.program h1 {
+.program h2 {
   font-family: "Pacifico", cursive;
-  margin-top: 100px;
 }
 /* akhir style portfolio */
 
@@ -192,8 +207,8 @@ header nav li span {
 
 .blog .deskripsi {
   letter-spacing: 0.5px;
-  font-weight: 500;
-  font-size: 19px;
+  font-weight: 600;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
