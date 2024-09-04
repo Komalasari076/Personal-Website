@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -108,33 +107,38 @@ header nav li span {
   margin: 50px 0;
 }
 
-.about P {
-  letter-spacing: 0.5px;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.about .pertama {
+.about .deskripsi {
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  gap: 50px;
+  margin: 10px 0 50px 0;
+}
+
+.about .deskripsi p {
+  width: 450px;
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 430;
+  letter-spacing: 1.5%;
+}
+
+.about .skill-page {
+  display: flex;
+  justify-content: center;
   gap: 50px;
 }
- 
-.about .pertama p {
-  width: 450px;
-  margin-top: 40px;
-  font-size: 18px;
-  font-weight: 500;
+
+.about .skill-page p {
+  font-size: 16px;
+  font-weight: 405;
+  text-align: justify;
+  letter-spacing: 1.5%;
+  padding: 0 25px;
 }
 
-.about .pertama img {
-  width: 300px;
-}
-
-.about .kedua img {
-  width: 800px;
-  margin-top: 40px;
+.webDev,
+.uiux {
+  box-shadow: 0 0 10px white;
 }
 /* akhir style about */
 
