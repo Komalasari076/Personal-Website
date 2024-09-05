@@ -39,6 +39,10 @@ header nav li a {
   color: #1d3537;
 }
 
+header nav li a:hover {
+  text-shadow: 2px 2px 10px white;
+}
+
 header nav li span {
   font-family: "Pacifico", cursive;
   font-size: 28px;
@@ -102,7 +106,7 @@ header nav li span {
 /* !aboutpage */
 /* style about */
 .about {
-  margin: 80px 0;
+  margin: 70px 0;
 }
 
 .about .deskripsi {
@@ -141,8 +145,6 @@ header nav li span {
   font-weight: 400;
   text-align: justify;
   letter-spacing: 1.5%;
-
-  
 }
 /* akhir style about */
 
@@ -200,6 +202,7 @@ header nav li span {
 }
 /* akhir style portfolio */
 
+/* !artikel page*/
 /* style blog */
 .blog {
   margin: 50px 0;
@@ -225,8 +228,7 @@ header nav li span {
   border-left: 4px solid #457b9d;
 }
 
-.blog .articles .article h3,
-p {
+.blog .articles .article h3 {
   margin: 0 0 10px 0;
 }
 
@@ -234,6 +236,10 @@ p {
   text-decoration: none;
   color: #457b9d;
   font-weight: bold;
+}
+
+.blog .articles .article a:hover {
+  text-shadow: 0 0 10px white;
 }
 /* akhir style blog */
 
@@ -271,6 +277,7 @@ p {
 }
 /* akhir style artikel */
 
+/* !footer page*/
 /* style footer */
 footer {
   width: 100%;
@@ -292,6 +299,10 @@ footer ul li a {
   color: #1d3537;
   font-weight: 500;
   font-size: 18px;
+}
+
+footer ul li a:hover {
+  text-shadow: 2px 2px 10px white;
 }
 
 .footer-icon img {
