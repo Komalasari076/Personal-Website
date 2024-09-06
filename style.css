@@ -20,27 +20,27 @@ main {
 /* !homepage */
 /* style header */
 header {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
-  padding: 15px;
+  padding: 15px 0;
   border-bottom: 1px solid #f9f9f9;
   box-shadow: 2px 0 10px #f9f9f9;
 }
 
 header span {
   font-family: "Pacifico", cursive;
-  font-size: clamp(1.3em, 2vw, 2em);
+  font-size: clamp(1.5em, 2vw, 2em);
   font-weight: 700;
 }
 
 header nav li {
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 25px;
   font-weight: 600;
-  font-size: clamp(1em, 1.5vw, 1.5em);
+  font-size: 1.2em;
 }
 
 header nav li a {
@@ -55,24 +55,21 @@ header nav li a:hover {
 /* akhir style header */
 
 /* style hero section*/
-.hero {
+.hero{
   min-height: 600px;
   text-align: center;
-}
-
-.hero-text {
   padding-top: 200px;
 }
 
 .hero-text h1 {
-  font-size: clamp(1.5em, 3vw, 3em);
-  letter-spacing: 2px;
+  font-size: clamp(1.5em, 2.5vw, 3em);
+  letter-spacing: 1px;
 }
 
 .hero-text h2 {
   font-size: clamp(1em, 2vw, 2em);
-  font-weight: 400px;
-  margin-top: 10px;
+  font-weight: 500;
+  margin: 10px;
 }
 
 .hero-icon img {
@@ -81,11 +78,15 @@ header nav li a:hover {
 /* akhir style hero section*/
 
 /* style work-section */
+.work-section {
+  margin-bottom: 10%;
+}
+
 .work-section h1 {
-  font-size: clamp(1.3em, 2.5vw, 3em);
+  font-size: clamp(1.5em, 2vw, 2.5em);
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .work-section .deskripsi {
@@ -100,7 +101,7 @@ header nav li a:hover {
 }
 
 .work-section .deskripsi h2 {
-  font-size: clamp(1em, 2vw, 2em);
+  font-size: clamp(1em, 1.5vw, 2em);
   margin: 30px 0 10px 0;
 }
 
@@ -113,18 +114,17 @@ header nav li a:hover {
 /* !aboutpage */
 /* style about */
 .about {
-  margin: 70px 0;
+  margin: 10% 0;
 }
 
 .about p {
   letter-spacing: 1.5%;
-  text-align: justify;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .about .deskripsi {
-  padding: 30px 30px 10px 30px;
+  padding: 20px 20px 10px 20px;
   border: 2px white solid;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
@@ -132,17 +132,18 @@ header nav li a:hover {
 
 .about .deskripsi h1 {
   font-weight: 500;
-  font-size: 24px;
+  font-size: clamp(1em, 2vw, 2em);
   text-align: center;
   margin-bottom: 15px;
 }
 
 .about .skill-page img {
   width: 100%;
+  margin: auto;
 }
 
 .about .skill-page .deskripsi-skill {
-  padding: 20px 30px 30px 30px;
+  padding: 20px;
   border: 2px white solid;
   border-top: none;
   border-radius: 0 0 10px 10px;
@@ -152,17 +153,17 @@ header nav li a:hover {
 /* !portfolio page */
 /* style portfolio */
 .project {
-  margin-top: 50px;
+  margin: 10% 0;
 }
 
 .project .judul {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .portfolio {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 30px;
 }
 
 .portfolio .card {
@@ -180,19 +181,20 @@ header nav li a:hover {
 }
 
 .portfolio h1 {
-  font-size: 18px;
+  font-size: 1.2em;
   padding-bottom: 5px;
 }
 
 .portfolio p {
-  font-size: 14px;
+  font-size: 0.9em;
 }
 
 .program {
-  margin-top: 100px;
+  margin-top: 15%;
 }
 
 .program img {
+  width: 100%;
   margin: 30px 0 50px 0;
   border: 2px white solid;
   box-shadow: 2px 0 10px white;
@@ -200,19 +202,20 @@ header nav li a:hover {
 
 .program h2 {
   font-family: "Pacifico", cursive;
+  font-size: 1em;
 }
 /* akhir style portfolio */
 
 /* !artikel page*/
 /* style blog */
 .blog {
-  margin: 50px 0;
+  margin: 10% 0;
 }
 
 .blog .deskripsi {
   letter-spacing: 0.5px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: clamp(1em, 1.5vw, 2em);
   margin-bottom: 30px;
 }
 
@@ -231,12 +234,14 @@ header nav li a:hover {
 
 .blog .articles .article h3 {
   margin: 0 0 10px 0;
+  font-size: clamp(1em, 1vw, 1.5em);
 }
 
 .blog .articles .article a {
   text-decoration: none;
   color: #457b9d;
   font-weight: bold;
+  font-size: clamp(1em, 1vw, 1.5em);
 }
 
 .blog .articles .article a:hover {
@@ -246,12 +251,16 @@ header nav li a:hover {
 
 /* style artikel */
 .write {
-  margin: 50px 0;
+  margin: 10% 0;
 }
 
 .write h1 {
-  font-size: 36px;
+  font-size: clamp(1.5em, 2.5vw, 3em);
   color: #09283b;
+}
+
+.write p {
+  font-size: clamp(1em, 1.3vw, 2em);
 }
 
 .write-section {
@@ -259,11 +268,12 @@ header nav li a:hover {
 }
 
 .write-section h2 {
-  margin-bottom: 10px;
+  font-size: clamp(1.2em, 2vw, 2em);
+  margin: 10px 0;
 }
 
 .write-section h3 {
-  margin-bottom: 5px;
+  margin: 10px 0 5px 0;
 }
 
 .write-section ul li {
@@ -286,20 +296,20 @@ footer {
   border-top: 1px solid #f9f9f9;
   box-shadow: 0 2px 10px #f9f9f9;
   text-align: center;
-  margin-top: 100px;
   overflow-x: hidden;
 }
 
 footer ul li {
   display: inline-block;
   margin: 30px 20px;
+  font-size: 18px;
 }
 
 footer ul li a {
   text-decoration: none;
   color: #1d3537;
   font-weight: 500;
-  font-size: 18px;
+  
 }
 
 footer ul li a:hover {
@@ -318,6 +328,9 @@ footer p {
   margin-top: 10px;
 }
 /* akhir style footer */
+
+
+/* media query */
 @media (max-width: 1000px) {
   main {
     width: 80%;
@@ -331,8 +344,6 @@ footer p {
     padding: 10px;
   }
 
-  
-
   header nav li {
     margin: 0 15px;
   }
@@ -340,25 +351,67 @@ footer p {
   header nav li span {
     margin-right: 20px;
   }
-
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
   main {
     width: 90%;
     margin: auto;
+    padding: 10px;
+    overflow-x: hidden;
   }
 
   header {
     display: block;
     text-align: center;
+    gap: 0;
+  }
+
+  header span {
+    margin-bottom: 10px;
+  }
+
+  header nav li {
+    margin: 0 10px;
+    font-size: 0.9em;
+  }
+
+  .hero-icon img {
+    margin: 10px;
   }
 
   .work-section .deskripsi {
-    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 0;
   }
 
+  .work-section .deskripsi .left,
+  .right {
+    width: 100%;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio .card {
+    width: 100%;
+  }
+
+  footer ul li {
+    margin: 30px 10px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero h1 {
+    font-size: 18px;
+  }
+
+  .hero h2 {
+    font-size: 12px;
+  }
 }
